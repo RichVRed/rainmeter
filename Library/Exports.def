@@ -1,0 +1,16 @@
+LIBRARY
+EXPORTS
+	RmReadString
+	RmReadFormula
+	RmPathToAbsolute
+	RmExecute
+	RmGet
+	LSLog
+	ReadConfigString
+	PluginBridge
+
+	; Private
+	RainmeterMain		@1 NONAME
+	pcre_compile		@2 NONAME
+	pcre_exec			@3 NONAME
+	pcre_study			@4 NONAME

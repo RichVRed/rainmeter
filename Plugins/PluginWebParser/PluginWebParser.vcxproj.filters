@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pcre">
+      <UniqueIdentifier>{15b74478-8fbf-4a89-b1ed-5488d059708c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Library\pcre-8.10\config.h">
+      <Filter>pcre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Library\pcre-8.10\pcre.h">
+      <Filter>pcre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Library\pcre-8.10\pcre_internal.h">
+      <Filter>pcre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Library\pcre-8.10\ucp.h">
+      <Filter>pcre</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WebParser.cpp" />
+    <ClCompile Include="..\..\Library\pcre-8.10\pcre_globals.c">
+      <Filter>pcre</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PluginWebParser.rc" />
+  </ItemGroup>
+</Project>

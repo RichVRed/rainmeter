@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="taglib">
+      <UniqueIdentifier>{068012df-e981-4223-a90f-e0cc39dc46bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKs">
+      <UniqueIdentifier>{1dbf5fab-83a1-45ab-8ab6-e5ae7b7b0516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKs\AIMP">
+      <UniqueIdentifier>{3ba19b2c-1c00-4093-a1b8-184aeaae6cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKs\Winamp">
+      <UniqueIdentifier>{18242178-1d8d-435b-8676-c5a0eb8c1f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKs\iTunes">
+      <UniqueIdentifier>{f632b821-b18a-445e-b7a2-2844b6633beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDKs\CD Art Display">
+      <UniqueIdentifier>{9e4422be-972a-442d-95f1-f238ef237a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3f6e39c4-31fd-45a7-a450-6c090c99ff47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{abad9374-731c-48b4-8ae1-45793b348013}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDKs\iTunes\iTunesCOMInterface_i.c">
+      <Filter>SDKs\iTunes</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ape\apefile.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ape\apefooter.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ape\apeitem.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ape\apeproperties.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ape\apetag.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\asf\asfattribute.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\asf\asfpicture.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\asf\asfproperties.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\asf\asftag.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\attachedpictureframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\audioproperties.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\commentsframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\flac\flacfile.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\flac\flacmetadatablock.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\flac\flacpicture.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\flac\flacproperties.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\flac\flacunknownmetadatablock.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v1\id3v1genres.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v1\id3v1tag.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\id3v2extendedheader.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\id3v2footer.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\id3v2frame.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\id3v2framefactory.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\id3v2header.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\id3v2synchdata.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\id3v2tag.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mp4\mp4atom.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mp4\mp4coverart.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mp4\mp4file.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mp4\mp4item.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mp4\mp4properties.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mp4\mp4tag.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\mpegfile.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\mpegheader.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\mpegproperties.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ogg\oggfile.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ogg\flac\oggflacfile.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ogg\oggpage.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ogg\oggpageheader.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\privateframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\tag.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\tagunion.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\toolkit\tbytevector.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\toolkit\tbytevectorlist.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\toolkit\tdebug.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\textidentificationframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\toolkit\tfile.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\toolkit\tstring.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\toolkit\tstringlist.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\toolkit\unicode.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\uniquefileidentifierframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\unknownframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\urllinkframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ogg\vorbis\vorbisfile.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ogg\vorbis\vorbisproperties.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\xingheader.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\ogg\xiphcomment.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\fileref.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\relativevolumeframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\popularimeterframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\generalencapsulatedobjectframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\asf\asffile.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpeg\id3v2\frames\unsynchronizedlyricsframe.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\wavpack\wavpackproperties.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\wavpack\wavpackfile.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpc\mpcproperties.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="taglib\mpc\mpcfile.cpp">
+      <Filter>taglib</Filter>
+    </ClCompile>
+    <ClCompile Include="NowPlaying.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAIMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCAD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerITunes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSpotify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWinamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWLM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lyrics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Internet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDKs\AIMP\aimp2_sdk.h">
+      <Filter>SDKs\AIMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKs\iTunes\iTunesCOMInterface.h">
+      <Filter>SDKs\iTunes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKs\Winamp\wa_dlg.h">
+      <Filter>SDKs\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKs\Winamp\wa_hotkeys.h">
+      <Filter>SDKs\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKs\Winamp\wa_ipc.h">
+      <Filter>SDKs\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKs\Winamp\wa_cmd.h">
+      <Filter>SDKs\Winamp</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKs\CAD\cad_sdk.h">
+      <Filter>SDKs\CD Art Display</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCAD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAIMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NowPlaying.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerITunes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSpotify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWinamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWLM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lyrics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Internet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PluginNowPlaying.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
